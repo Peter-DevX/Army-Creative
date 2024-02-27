@@ -1,0 +1,253 @@
+*{  
+    padding: 0;
+    margin: 0;
+    text-decoration:none ;
+     
+}
+
+
+.catalog{
+  background-color: black;
+  height: 450vh;
+  width: 100%;
+}
+
+nav{
+    text-align: left;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+  }
+  
+  .navbar ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+
+
+
+
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .navbar a:hover {
+    
+    text-decoration:3px underline white; 
+  }
+  
+
+.navdiv{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-right: 50px;
+}
+
+.navdiv ul{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 90px;
+    padding: 5px 3px 5px 5px;
+}
+.navdiv ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    padding: 1px;
+}
+
+.navdiv ul li a{
+  text-decoration:none;
+    color:rgba(104, 248, 110, 1);
+    font-size: 16px;
+    padding-right: 50px;
+    text-align: left;
+    margin-right:10px;
+    line-height:24.2px ;
+
+}
+
+
+
+
+
+.BookService ul{
+    border-radius:5.82px ;
+    border: 2px solid rgba(104, 248, 110, 1) ;
+    padding-left: 50px;
+    margin-left: 30px;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.BookService ul:hover{
+
+  background-color: green;
+}
+
+.BookService ul a:hover{
+  text-decoration:none;
+  color: white;
+}
+
+
+.logo img{
+    height:81px ;
+    width: 81px;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+
+
+
+
+.imgcontainer{
+  position: relative;
+  margin-top: 74px;
+  margin-left: 120px;
+  height: 290px;
+  width: 1050px;
+}
+
+.imgcontainer img{
+  position:relative;
+  height: 280px;
+  width: 410px;
+}
+
+
+
+.btn{
+  border-radius: 10px;
+  position:absolute;
+  border: 2px solid #68f86e;
+  width: 120px;
+  margin-left: 500px;
+  margin-bottom: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  color:#68f86e;
+}
+
+
+.btn1{
+  width: 170px;
+  border-radius: 10px;
+  position: absolute;
+  border: 2px solid #68f86e;
+  margin: 0px 0px 5px 700px;
+  width: 120px;
+  color:#68f86e;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 30px;
+  text-align: center;
+}
+.inside{
+  width: 500px;
+  position: relative;
+  margin: -200px 30px 70px 440px;
+  line-height: 30px;
+
+} 
+
+.inside h4{
+  color: #68f86e;
+  font-family: manrope, sans-serif;
+}
+
+.inside p{
+  color: white;
+  font-family:manrope, sans-serif;
+  line-height: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  height: 150px;
+}
+
+
+.socmedia{
+  
+  justify-content: space-between;
+  margin-top: 20px; ;
+  text-align: center;
+  width: 100%;
+
+}
+
+
+.fa-instagram{
+  margin-right:20px;
+  font-size: 18px;
+  color:rgba(13, 119, 17, 1) ;
+}
+
+.fa-twitter{
+  margin-right:20px;
+  font-size: 18px;
+  color:rgba(13, 119, 17, 1) ;
+}
+.fa-square-facebook{
+  margin-right:20px;
+  font-size: 18px;
+  color:rgba(13, 119, 17, 1) ;
+}
+.fa-youtube{
+  margin-right:20px;
+  font-size: 18px;
+  color:rgba(13, 119, 17, 1) ;
+}
+
+.footer h3{
+  padding: 10px 5px 0px 0px;
+  text-align: center;
+  word-spacing: 20px;   
+}
+
+.footer p{
+  margin-top: 30px;
+  padding: 25px ;
+  text-align: center;
+}
