@@ -18,14 +18,13 @@ nav{
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: black;
     color: white;
     padding: 10px 0px;
   }
   
   .navbar ul {
-    
+    text-align: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,18 +32,11 @@ nav{
   }
   
 
-
-
-
-  .navbar li {
-    margin-right: 10px;
-  }
   
-  .navbar li:last-child {
-    margin-right: 0;
-  }
+ 
   
   .navbar a {
+    margin-right: 30px;
     color: white;
     text-decoration: none;
   }
@@ -62,12 +54,12 @@ nav{
     justify-content: space-between;
     text-align: center;
     margin: 0 0 0 0;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .navdiv ul{
     display: inline-flex;
-    text-align: center;
+    text-align: left;
     margin-left: 90px;
     padding: 5px 3px 5px 5px;
 }
@@ -81,10 +73,10 @@ nav{
 
 .navdiv ul li a{
     color:rgba(104, 248, 110, 1);
-    font-size: 16px;
+    font-size: 20px;
     padding-right: 50px;
     text-align: left;
-    margin-right:10px;
+    margin-right:20px;
     line-height:24.2px ;
 
 }
@@ -107,16 +99,18 @@ nav{
 
 .home-page{
     position: relative;
-    height: 85vh;
+    height: 100vh;
     width:100%;
     background-attachment: scroll;
     background: linear-gradient( 90deg, #000000 36.5%, rgba(0, 0, 0, 0) 101%);
 }
 
 .home-page img{
+  position: absolute;
+  left:190px;
   overflow-y: none;
   width: 700px;
-  height: 650px;
+  height: 500px;
   top: 98px;
   margin: 13px 10px 10px 44.5%;
   border-radius: none;
@@ -125,7 +119,7 @@ nav{
 
 .message {
   position: absolute;
-    top: 250px;
+    top: 190px;
     left: 40px;
     padding: 20px;
     margin-top: 0px;
@@ -136,7 +130,7 @@ nav{
     
   }
   
-  /* Optional: To style the h1 inside the div */
+  
   .message h1 {
     font-family: sans-serif;
     color: white;
@@ -154,9 +148,14 @@ nav{
     line-height: 1.5;
   }
 
-  
+  .ViewCat a{
+    color: white;
+  }
 
+  
   .ViewCat{
+    font-size:16px;
+    background-color: black;
     bottom: 15rem;
     position: absolute;
     width: 100px;
@@ -165,11 +164,15 @@ nav{
     margin:  50px 0 0px 100px;
     padding: 15px 15px 15px 15px;
     border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
 } 
 
-.ViewCat a{
-  color:rgba(104, 248, 110, 1) ;
+.ViewCat:hover{
+  background-color: gray;
 }
+
+
+
 
 
 
@@ -195,6 +198,7 @@ nav{
 
 .endSection{
   position:absolute;
+  top: 700px;
   text-align: center;
   width: 100%;
   height: 50px;
@@ -215,7 +219,7 @@ nav{
 
 
 .categorySec{
-  height: 210vh;
+  height: 250vh;
   margin-top: 10.0px;
   background-color: #000000;
 }
@@ -268,10 +272,11 @@ nav{
 }
 
 .categoryRow img {
+  
   border-radius: 23.03px;
   width: 400px;
   height: 300px;
-  margin: 80px 20px 20px 0px; /* Adjust margin to create space between images */
+  margin: 80px 20px 20px 70px; /* Adjust margin to create space between images */
   object-fit: cover; /* Ensure the image covers the entire box */
   scroll-snap-align: start; /* Snap each image to the start */
   transition: transform 0.5s; /* Add animation to transform property */
@@ -299,7 +304,8 @@ nav{
 }
 
 .ourPage h3{
-  color: white;
+  font-family: manrope, sans serif;
+  color: #68f86e;
 text-align: center;
 margin: 0px 0px 20px 0px;
 text-transform:uppercase;
@@ -307,18 +313,25 @@ padding-top: 10px;
 }
 
 .ourPage p{
+  font-family: manrope, sans serif;
+  font-size: 20px;
+  font-weight: 400px;
   color: white;
   text-align: center;
-  line-height: 20px;
+  line-height: 35px;
+  padding: 10px 40px;
+  
 }
 
 .ourPage a{
+  font-family: manrope, sans serif;
+  text-align: center;
   color:#68f86e;
   position: absolute;
   text-decoration: none;
   border: 2px solid #68f86e;
-  margin: 30px 50px 0px 550px ;
-  padding: 5px 5px ;
+  margin: 30px 50px 0px 700px ;
+  padding: 10px 10px ;
   border-radius: 4px;
 }
 
@@ -326,23 +339,23 @@ padding-top: 10px;
 
 
 .style{
+  align-self: center;
   position: relative;
-  margin: 0px 0px 0px 0px;
-  width: 100%;
-  margin: 350px 10px 0px 0px    ;
+  margin: 390px 0px 0px 100px;
   transform: scaleY(-200px);
+  width: 1400px;
 }
 
 .style img{
-  padding-left: 10px;
-  text-align: center;
+  margin-left: 50px;
+  padding-left: 0px;
   justify-content: space-between 20px;
   background-position: 10px;
   transition:0.5sec ease-out;
 }
 
 .style img {
-  margin-left: 10px;
+  
   transition: transform 0.5s ease-out; /* Apply transition to transform property */
 }
 
@@ -374,6 +387,7 @@ padding-top: 10px;
 }
 
 .support{
+  color: #68f86e;
   text-align: center;
   margin-top:150px;
 
@@ -386,20 +400,26 @@ padding-top: 10px;
 }
 
 .becomePartner p{
+  font-family: Manrope, sans sans-serif;
+  font-size: 20px;
   color: white;
   font-family:Manrope;
   font-size: 18px;
   line-height: 20px;
+  padding-top: 20px;
 }
 
 
 .becomePartner a{
   color: #68f86e;
   position: absolute;
+  right: 563px;
   border: 2px solid #68f86e;
   padding: 10px;
-  margin: 15px 0px 0px 0px;
+  margin: 25px 120px 0px 0px;
   border-radius:6.57px;
+  
+  padding: 10px 10px ;
   
 }
 
@@ -516,5 +536,9 @@ padding-top: 10px;
   }
   .home-page{
     flex-direction: column;
+  }
+  .home-page img{flex-direction: column;
+    height: auto;
+
   }
 }

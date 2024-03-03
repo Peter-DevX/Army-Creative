@@ -16,6 +16,13 @@ nav{
     text-align: left;
 }
 
+.h1style{
+  color: #68f86e;
+  font-weight: 400px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Manrope, sans serif;
+}
 
 .navbar {
     display: flex;
@@ -100,7 +107,7 @@ nav{
 
 .BookService ul{
     border-radius:5.82px ;
-    border: 2px solid rgba(104, 248, 110, 1) ;
+    border: 2px solid #68f86e ;
     padding-left: 50px;
     margin-left: 30px;
     transition: 0.5s ease-out;
@@ -132,7 +139,7 @@ nav{
 .imgcontainer{
   position: relative;
   margin-top: 74px;
-  margin-left: 120px;
+  margin-left: 170px;
   height: 290px;
   width: 1050px;
 }
@@ -169,32 +176,66 @@ nav{
   color:#68f86e;
   height: 40px;
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
+
+
+.btn2{
+  width: 170px;
+  display: inline-flex;
+  border-radius: 10px;
+  position: absolute;
+  border: 2px solid #68f86e;
+  margin: -20px 0px 25px 450px;
+  color:#68f86e;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
 .inside{
   width: 500px;
   position: relative;
-  margin: -200px 30px 70px 440px;
+  margin: -250px 30px 70px 440px;
   line-height: 30px;
 
 } 
 
+
 .inside h4{
+  line-height: 21.86px;
+  margin-bottom: 10px;
   color: #68f86e;
   font-family: manrope, sans-serif;
+  font-size:20px;
+  
 }
 
-.inside p{
+
+
+p{
+  display: flex;
   color: white;
+  font-size: 16px;
   font-family:manrope, sans-serif;
-  line-height: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  
 }
 
 
+.srv{
+  color: #68f86e;
+  font-family: inter,sans-serif;
+  text-align: center;
+  font-weight: 800px;
+  font-size:80px;
 
-
+}
 
 
 
@@ -209,7 +250,7 @@ nav{
 
 
 .socmedia{
-  
+  padding-top: 40px;
   justify-content: space-between;
   margin-top: 20px; ;
   text-align: center;
@@ -241,7 +282,7 @@ nav{
 }
 
 .footer h3{
-  padding: 10px 5px 0px 0px;
+  padding: 20px 5px 0px 0px;
   text-align: center;
   word-spacing: 20px;   
 }

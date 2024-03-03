@@ -103,37 +103,67 @@ nav{
 }
 
 .newArrival{
+  background-color: black;
   height: 120vh;
   width: auto;
 
 }
 
 .newArrival h3{
+  font-family: manrope, sans serif;
+  font-size: 24px;
     text-align: center;
     margin-top: 60px;
+    color: #68f86e;
 }
 
 
 .imglist{
     width: 100%;
-    border: 2px solid green;
     position: absolute;
     margin-top: 25px;
     display: flex;
     padding: 10px 10px;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overscroll-behavior-inline: contain;
     
 }
 
 
-.img1{
-    margin: 20px;
+.imglist::-webkit-scrollbar {
+  display: none;
+}
 
+.imglist:hover {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none; 
+}
+
+.img1{  
+  
+  flex: 0 0 auto;
+  padding: 10px;
+  margin-right: 10px;
+  white-space: nowrap
+   /*margin: 20px;*/
+
+}
+
+.img1:last-child{
+  margin-right: 0;
+}
+
+img{
+  width: 100%;
 }
 
 
 .clothingMsg{
+  color: white;
     position: absolute;
-    border: 2px solid blueviolet;
     margin-top: 400px;
     text-align: center;
     line-height: 25px;
@@ -147,12 +177,52 @@ nav{
   border-radius: 10px;
   position:absolute;
   border: 2px solid #68f86e;
-  width: 120px;
+  width: 150px;
   margin-left: 700px;
   margin-top: 550px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   height: 40px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 12px;
   color:#68f86e;
+}
+
+
+.instruction{
+  text-align: center;
+  position: absolute;
+  top: 520px;
+  left: 500px;
+  font-size: 28px;
+  font-weight: 400px;
+  line-height: 32.78px;
+  color: white;
+  position: absolute;
+  line-height: 25px;
+  
+}
+
+#booking{
+  font-family: manrope, sans serif;
+  font-size: 48px;
+  font-weight:800px;
+  line-height: 58.09px;
+  text-align: center;
+  margin-top: 60px;
+  color: #68f86e;
+}
+
+#butt{
+  border-radius: 10px;
+  position:absolute;
+  border: 2px solid #68f86e;
+  width: 150px;
+  margin-left: 700px;
+  margin-top: 400px;
+  margin-bottom: 30px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  color:#68f86e;
+
 }
