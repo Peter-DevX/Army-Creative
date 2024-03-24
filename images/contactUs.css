@@ -1,0 +1,176 @@
+*{  
+    padding: 0;
+    margin: 0;
+    text-decoration:none ;
+     
+}
+
+
+.catalog{
+  background-color: white;
+  height: 450vh;
+  width: 100%;
+}
+
+nav{
+    text-align: left;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+  }
+  
+  .navbar ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+
+
+
+
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+
+  
+
+.navdiv{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-right: 50px;
+}
+
+.navdiv ul{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 90px;
+    padding: 5px 3px 5px 5px;
+}
+.navdiv ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 10px;
+    padding: 1px;
+}
+
+.navdiv ul li a{
+  text-decoration:none;
+    color:rgba(104, 248, 110, 1);
+    font-size: 16px;
+    padding-right: 50px;
+    text-align: left;
+    margin-right:10px;
+    line-height:24.2px ;
+  transition: 0.5s ease;
+}
+
+.navdiv ul li a:hover{
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+
+.BookService{
+  width: 200px;
+  height: 30px;
+  display: inline-block;
+  border-radius:5.82px ;
+    background-color: black;
+    color: #68f86e;
+    border: 2px solid #68f86e ;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    font-family: Manrope,sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;  
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+}
+
+.BookService:hover{
+  background-color:#68f86e;
+  color: black;
+  font-size: 18px;
+  height: 24px;
+}
+
+.logo img{
+    height:81px ;
+    width: 81px;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 90px;
+    font-family: manrope, sans serif;
+    font-weight: 400px;
+    font-size: 52.12px;
+    line-height: 70px;
+}
+
+h3{
+    color: rgba(13, 119, 17, 1);
+    font-size: 26.06px;
+    font-weight: 400px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+h4{
+    color: rgba(13, 119, 17, 1);
+    text-align: center;
+    font-family:manrope, sans serif;
+    font-size:20px;
+    font: weight 400px;
+    line-height: 27.32px;
+}
+
+p{
+
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: Manrope, sans serif;
+    font: weight 400px;
+    line-height:27.32px;
+}
+
+.email{
+  text-decoration:none;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.email:hover{
+  font-size: 18px;
+}
